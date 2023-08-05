@@ -26,6 +26,10 @@ This is a weather dashboard web application that allows travelers to view the we
 
 - Clean and Responsive UI: The user interface is designed with a clean and responsive layout, making it user-friendly on various devices and screen sizes.
 
+## Screenshot
+
+![Alt text](image.png)
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
