@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: lime;
+    padding: 5px;
+    color: black;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .hero {
+    background-color: lime;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #weatherIcon {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  #temp {
+    font-size: 36px;
+  }
+  
+  #cityName,
+  #currentDate {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #000;
+  }
+  
+  #windSpeed,
+  #humidityValue {
+    font-size: 18px;
+    color: #000;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: lime;
+  }
+  
+  .forecast-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  
+  .card {
+    background-color: lime;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #searchBar {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  #cityInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid lime;
+    border-radius: 5px;
+  }
+  
+  #searchButton {
+    padding: 10px 20px;
+    background-color: lime;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .searchHistory {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  
+  .city-button {
+    padding: 10px 15px;
+    background-color: lime;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .forecast-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 90%;
+    }
+  }
+  
